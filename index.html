@@ -1,18 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Bootstrap CSS CDN-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/index.css">
+    <link href="https://fonts.cdnfonts.com/css/algeria" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <title>PurpleWigFix</title>
 </head>
+
 <body>
-    
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <img src="./assets/logo_1.png" alt="logo">
+            <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation" id="navbarButton">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <div class="d-none d-lg-flex justify-content-end w-100" id="navright">
+                    <div class="m-5 text-center">
+                        <a class="fw-bold" href="#">Home</a>
+                    </div>
+                    <div class="m-5 text-center">
+                        <a class="fw-bold" href="#">About Us</a>
+                    </div class="m-5 text-center">
+                    <div class="m-5 text-center">
+                        <a class="fw-bold" href="#">Services</a>
+                    </div>
+                    <div class="m-5 text-center">
+                        <a class="fw-bold" href="#">Gallery</a>
+                    </div>
+                    <div class="m-5 text-center">
+                        <a class="fw-bold" href="#">Bookings</a>
+                    </div>
+                    <div class="m-5 text-center">
+                        <a class="fw-bold p-3" id="nav-register" href="#">Course Registration</a>
+                    </div>
+                </div>
+
+                <div class="d-md-none" id="navright">
+                    <div class="m-5 text-center">
+                        <a class="fw-bold" href="#">Home</a>
+                    </div>
+                    <div class="m-5 text-center">
+                        <a class="fw-bold" href="#">About Us</a>
+                    </div class="m-5 text-center">
+                    <div class="m-5 text-center">
+                        <a class="fw-bold" href="#">Services</a>
+                    </div>
+                    <div class="m-5 text-center">
+                        <a class="fw-bold" href="#">Gallery</a>
+                    </div>
+                    <div class="m-5 text-center">
+                        <a class="fw-bold" href="#">Bookings</a>
+                    </div>
+                    <div class="m-5 text-center">
+                        <a class="fw-bold p-3" id="nav-register" href="#">Course Registration</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--Hero-->
+    <div class="d-flex justify-content-between" id="hero-container">
+        <div class="text-center w-50" id="hero-text">
+            <span class="fw-bold">Ready to go next level?</span>
+            <p class="fw-bold">Let's help you look the best.</p>
+            <p class="fw-bold">Beauty is where we shine</p>
+            <div class="mt-5">
+                <a href="#">Read more</a>
+            </div>
+        </div>
+        <div class="w-50">
+            <img class="img-fluid" src="./assets/hero.png" alt="hero_img">
+        </div>
+    </div>
+
+    <div id="hero-bottom">
+        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni fugiat suscipit eligendi eum assumenda enim
+            alias iure, officiis totam tempore. Similique repellendus quae tempore dignissimos recusandae laborum
+            voluptatibus labore aspernatur."</p>
+    </div>
+
+    <!--About Us-->
+    <div class="text-center mt-5" id="about-us">
+        <h2>ABOUT US</h2>
+        <div class="d-flex">
+            <div class="w-50">
+                <img class="img-fluid" src="./assets/about_1.png" alt="about_1">
+            </div>
+            <div id="about-right" class="w-50 pe-5 text-start fw-bold">
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat</p>
+                <div class="btn-div d-flex justify-content-center">
+                    <a href="#">Read more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Services-->
+    <div id="services" class="text-center pb-5">
+        <h2 class="pt-5 pb-5">OUR SERVICES</h2>
+        <div class="d-flex justify-content-around">
+            <div>
+                <img class="img-fluid" src="./assets/hair_coloring.png" alt="">
+                <h3>Hair coloring</h3>
+            </div>
+            <div>
+                <img class="img-fluid" src="./assets/training.png" alt="">
+                <h3>Training</h3>
+            </div>
+            <div>
+                <img class="img-fluid" src="./assets/wig_fixing.png" alt="">
+                <h3>Wig Fixing</h3>
+            </div>
+        </div>
+        <div class="btn-div d-flex justify-content-center">
+            <a href="#">Read more</a>
+        </div>
+    </div>
+
+    <!--Customer Feedback-->
+    <div id="feedback" class="text-center">
+        <div id="feedback-head" class="d-flex justify-content-center">
+            <img class="img-fluid" src="./assets/customer.png" alt="">
+            <h2>OUR CUSTOMER FEEDBACKS</h2>
+        </div>
+        <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-center">
+                        <img src="./assets/person_1.png" class="d-block w-100 img-fluid" alt="person_1">
+                    </div>
+                    <div class="carousel-detail text-center">
+                        <h3>Regina</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia delectus, iusto dolores est
+                            illum fugiat cumque amet quae repellat accusantium qui illo placeat voluptatem tenetur
+                            quisquam accusamus aliquam at neque.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <img src="./assets/person_2.png" class="d-block w-100 img-fluid" alt="person_2">
+                    </div>
+                    <div class="carousel-detail text-center">
+                        <h3>Regina</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia delectus, iusto dolores est
+                            illum fugiat cumque amet quae repellat accusantium qui illo placeat voluptatem tenetur
+                            quisquam accusamus aliquam at neque.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <img src="./assets/person_3.png" class="d-block w-100 img-fluid" alt="person_3">
+                    </div>
+                    <div class="carousel-detail text-center">
+                        <h3>Regina</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia delectus, iusto dolores est
+                            illum fugiat cumque amet quae repellat accusantium qui illo placeat voluptatem tenetur
+                            quisquam accusamus aliquam at neque.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <img src="./assets/person_4.png" class="d-block w-100 img-fluid" alt="person_4">
+                    </div>
+                    <div class="carousel-detail text-center">
+                        <h3>Regina</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia delectus, iusto dolores est
+                            illum fugiat cumque amet quae repellat accusantium qui illo placeat voluptatem tenetur
+                            quisquam accusamus aliquam at neque.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <div class="d-flex justify-content-around">
+            <div class="text-center">
+                <h2 id="footer-name">PURPLEWIGFIX</h2>
+                <P>We are here to serve you with the best. Visit us today!</P>
+                <span><i class="bi bi-instagram"></i></span>
+                <span><i class="bi bi-snapchat"></i></span>
+            </div>
+            <div>
+                <h2>Contact</h2>
+                <a href="tel:+233558473713">+233 558473713</a>
+                <p>Shop located - UPSA Old asanka local</p>
+            </div>
+            <div>
+                <h2>Working Hours</h2>
+                <p>Monday to Saturday</p>
+                <p>8:30am to 8:30pm</p>
+            </div>
+        </div>
+        <div id="right" class="text-center">
+            <p>&copy 2023, All Rights Reserved</p>
+        </div>
+    </footer>
 
     <!--Bootstrap JS CDN-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+    <script src="./scripts/index.js"></script>
 </body>
+
 </html>

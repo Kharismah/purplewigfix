@@ -1,0 +1,189 @@
+/*Navbar Styling*/
+#nav-container {
+    background-color: #fffcf7;
+}
+
+a {
+    text-decoration: none;
+}
+
+#navbarToggler a {
+    color: #000;
+    font-size: 20px;
+}
+
+#nav-register {
+    background-color: #D3AC1F;
+    color: #fff !important;
+    border-radius: 20px;
+}
+
+/*Hero Section Styling*/
+#hero-container {
+    background-color: #E5E6E8;
+}
+
+#hero-text {
+    margin-top: 8%;
+}
+
+#hero-text span {
+    font-size: 500%;
+}
+
+#hero-text p {
+    font-size: 150%;
+}
+
+#hero-text a {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #BE29EC;
+    border-style: solid;
+    border-color: #BE29EC;
+    border-radius: 20px;
+    padding: 2%;
+    width: 40%;
+}
+
+#hero-text a:hover {
+    background-color: #fff;
+    color: #BE29EC;
+}
+
+#hero-bottom {
+    background-color: #A510A9;
+    text-align: center;
+    color: #fff;
+    padding: 2%;
+}
+
+/*About Us Styling*/
+#about-us h2 {
+    font-family: 'Algeria', sans-serif;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+}
+
+#about-right {
+    margin-top: 20%;
+}
+
+#about-right p {
+    font-size: 20px;
+}
+
+.btn-div a {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #800080;
+    border-style: solid;
+    border-color: #800080;
+    border-radius: 20px;
+    padding: 2%;
+    width: 40%;
+    max-width: 300px;
+}
+
+.btn-div a:hover {
+    background-color: #fff;
+    color: #800080;
+}
+
+/*Our Services Styling*/
+#services {
+    background-color: #A510A9;
+}
+
+#services h2 {
+    font-family: 'Algeria', sans-serif;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+}
+
+#services h3 {
+    color: #fff;
+    margin-top: 5%;
+}
+
+#services .btn-div a {
+    margin-top: 3%;
+    padding: 1%;
+}
+
+/*Customer Feedback Styling*/
+#feedback-head img {
+    width: 50px;
+    height: 50px;
+}
+
+#feedback-head h2 {
+    font-family: 'Algeria', sans-serif;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+}
+
+.carousel-item img {
+    max-width: 40%;
+    max-height: 40%;
+}
+
+.carousel-detail h3 {
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 10px;
+    font-weight: bold;
+}
+
+#carousel-prev {
+    margin-top: 100px !important;
+}
+
+.carousel-control-prev {
+    background-color: #800080;
+    margin-left: 10%;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 40%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border-radius: 10px;
+}
+
+.carousel-control-next {
+    background-color: #800080;
+    margin-right: 10%;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 40%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border-radius: 10px;
+}
+
+/*Footer*/
+footer {
+    background-color: #100F0F;
+    color: #fff;
+    padding-top: 10%;
+}
+
+#footer-name {
+    font-family: 'Algeria', sans-serif;
+    color: #EFBBFF;
+}
+
+footer a {
+    color: #fff;
+}
+
+#right p {
+    margin-bottom: 0 !important;
+    padding-top: 5%;
+}
